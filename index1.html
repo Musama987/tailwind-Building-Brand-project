@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+    <title>Landwind Tailwind</title>
+</head>
+
+<body class="font-['Inter']">
+    <!-- HEADER -->
+    <div class="container max-w-[1280px] m-auto px-4 lg:px-4 xl:px-0">
+        <nav class="lg:flex lg:flex-row lg:justify-between lg:py-6 lg:px-0 ">
+            <div class="lg:flex lg:flex-row lg:justify-start gap-8 items-center">
+                <div class="flex justify-between">
+                    <img class="sm:pl-5 pt-5 lg:pl-0 lg:pt-0" src="Logo.png" alt="logo">
+                    <div class="hamburger inline-block p-2 pt-5 cursor-pointer lg:hidden">
+                        <div class="line h-0.5 w-6 my-1 bg-black"></div>
+                        <div class="line h-0.5 w-6 my-1 bg-black"></div>
+                        <div class="line h-0.5 w-6 my-1 bg-black"></div>
+                    </div>
+                </div>
+                <ul class="hidden lg:flex lg:cursor-pointer lg:flex-row gap-8 lg:text-base lg:font-medium">
+                    <li>
+                        <a href="#">Company</a>
+                    </li>
+                    <li>
+                        <a href="#">Marketplace</a>
+                    </li>
+                    <li>
+                        <a href="#">Features</a>
+                    </li>
+                    <li>
+                        <a href="#">Team</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="hidden lg:flex lg:flex-row lg:justify-end lg:items-center lg:gap-4">
+                <div class="lg:text-base lg:font-medium lg:cursor-pointer">Log in</div>
+                <button class="lg:text-white bg-[#7E3AF2] lg:px-[7px] lg:py-[7px] rounded-lg">Get started</button>
+            </div>
+        </nav>
+    </div>
+    <!-- CONTENT -->
+    <div class="container max-w-[1280px] m-auto px-4 lg:px-4 xl:px-0">
+        <div class="flex flex-col md:flex-col  gap-9 md:gap-0 xl:flex xl:flex-row md:justify-center md:items-center py-16">
+            <div class="left text-center xl:text-left xl:w-[55%] lg:px-[120px] xl:px-0 md:pt-9 xl:pt-0">
+                <h1 class="text-4xl font-semibold pr-7 md:pr-0 xl:pr-24 md:text-6xl  md:font-black">Building digital products &
+                    brands.</h1>
+                <p class="font-light text-lg pt-4  md:font-normal md:text-xl text-[#6B7280] lg:pt-6">Here at flowbite we
+                    focus on markets where technology, innovation, and capital can unlock long-term value and drive
+                    economic growth.</p>
+                <div class="flex flex-col justify-center items-center xl:items-start xl:justify-start sm:flex sm:flex-row pt-6  lg:flex lg:flex-row gap-4 xl:pt-10">
+                    <button
+                        class="text-white bg-[#7E3AF2] xl:px-[20px] xl:py-[12px] sm:px-4 sm:py-3 px-5 py-3 rounded-lg">Start 30
+                        day free trial</button>
+                    <button
+                        class="px-3 py-2 sm:px-4 sm:py-3 xl:px-[19px] xl:py-[11px] border border-solid border-[#E5E7EB] rounded-lg">Pricing
+                        & FAQ</button>
+                </div>
+            </div>
+            <div class="flex flex-col right xl:w-[45%] lg:flex xl:items-end">
+                <img class="w-full h-full object-cover xl:w-[532px] xl:h-[416px]" src="marketing-strategy 1.png">
+            </div>
+        </div>
+    </div>
+    <!-- LOGOS -->
+    <div class="container max-w-[1280px] m-auto px-4 lg:px-4 xl:px-0">
+        <!-- <div class="flex flex-col px-11 justify-center md:px-72 lg:px-0 gap-12 pb-7 lg:gap-0 lg:flex lg:flex-row lg:justify-between lg:pb-24"> -->
+        <div class="grid grid-cols-1 items-center gap-6 xl:pb-24 pb-8 sm:grid-cols-2 sm:gap-7 md:grid-cols-2 md:gap-8 lg:grid-cols-3 lg:gap-8 xl:grid-cols-6 xl:gap-16">
+            <img class="w-auto" src="Google.png">
+            <img class="w-auto" src="Microsoft.png">
+            <img class="w-auto" src="Spotify.png">
+            <img class="w-auto" src="Mailchimp.png">
+            <img class="w-auto" src="Airbnb.png">
+            <img class="w-auto" src="uber.png">
+        </div>
+    </div>
+    <!-- Featur -->
+           <div class="bg-[#F9FAFB]">
+        <div class="container max-w-[1280px] m-auto px-4 lg:px-4 xl:px-0">
+            <div class="flex flex-col xl:flex-row xl:pt-24 xl:flex xl:gap-16">
+                <div class="left py-6 xl:w-[50%] text-center xl:text-left xl:py-4 ">
+                    <h1 class="text-3xl font-extrabold py-3 lg:text-4xl lg:font-extrabold lg:py-4">Work with tools you
+                        already use</h1>
+                    <p class="pb-6 text-xl font-normal lg:pb-8 text-[#6B7280]">Deliver great service experiences
+                        fast - without the complexity of traditional ITSM solutions.Accelerate critical development
+                        work, eliminate toil, and deploy changes with ease.</p>
+                    <hr>
+                    <div class="text-base text-left font-medium pt-6 lg:pt-8">
+                        <div class="tick gap-4">
+                            <p class="flex pb-4 gap-2">
+                                <img class="sm:mb-0 md:mb-0 xl:mb-0 mb-6 lg:mb-0 object-cover" src="check-circle.png"> Continuous
+                                integration and deployment
+                            </p>
+                            <p class="flex pb-4 gap-2">
+                                <img class="object-cover" src="check-circle.png"> Development workflow
+                            </p>
+                            <p class="flex gap-2">
+                                <img class="object-cover" src="check-circle.png"> Knowledge management
+                            </p>
+                            <p class="pt-6 lg:text-xl lg:font-normal lg:pt-6 text-[#6B7280]">Deliver great service
+                                experiences fast - without the complexity of traditional ITSM solutions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right xl:w-[50%] xl:py-[10px] xl:px-[10px]">
+                    <img class="w-full h-full object-cover xl:w-[598px] xl:h-[435px]" src="features-1 1.png">
+                </div>
+            </div>
+        </div>
+        <div class="container max-w-[1280px] m-auto px-4 md:pt-20 md:pb-24 lg:px-4 xl:px-0">
+            <div class="flex flex-col lg:pb-0 xl:flex xl:flex-row xl:gap-16">
+                <div class="left xl:w-[50%] xl:py-[10px] xl:px-[10px]">
+                    <img class="w-full h-full object-cover xl:w-[598px] xl:h-[434px]" src="feature-2 1.png">
+                </div>
+                <div class="right py-6 text-center xl:text-left xl:w-[50%] xl:py-4 ">
+                    <h1 class="text-3xl font-extrabold py-3 lg:text-4xl lg:font-extrabold lg:py-4">We invest in the world’s
+                        potential</h1>
+                    <p class="pb-6 lg:text-xl lg:font-normal lg:pb-8 text-[#6B7280]">Deliver great service experiences
+                        fast - without the complexity of traditional ITSM solutions.Accelerate critical development
+                        work, eliminate toil, and deploy changes with ease.</p>
+                    <hr>
+                    <div class="text-base text-left font-medium pt-6 xl:pt-8">
+                        <div class="tick gap-4">
+                            <p class="flex pb-4 gap-2">
+                                <img class="mb-[21px] sm:mb-0 md:mb-0 lg:mb-0 object-cover" src="check-circle.png"> Copy
+                                Dynamic reports and dashboards
+                            </p>
+                            <p class="flex pb-4 gap-2">
+                                <img class="object-cover" src="check-circle.png"> Templates for everyone
+                            </p>
+                            <p class="flex pb-4 gap-2">
+                                <img class="object-cover" src="check-circle.png"> Development workflow
+                            </p>
+                            <p class="flex pb-4 gap-2">
+                                <img class="object-cover" src="check-circle.png"> Limitless business automation
+                            </p>
+                            <p class="flex gap-2">
+                                <img class="object-cover" src="check-circle.png"> Knowledge management
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- SOCIAL PROOFS -->
+    <div class="container max-w-[1280px] m-auto lg:py-24 px-4 lg:px-4 xl:px-0">
+        <div class="flex flex-col text-center xl:text-left xl:flex xl:flex-row xl:gap-24 gap-8">
+            <div class="left xl:w-[54%] py-7 md:py-2 ">
+                <h1 class="text-lg font-medium text-[#7E3AF2]">Trusted Worldwide</h1>
+                <h1 class="text-3xl font-bold lg:text-4xl lg:font-extrabold pt-3">Trusted by over 600 million users and
+                    10,000 teams
+                </h1>
+                <p class="text-xl font-light text-[#6B7280] pt-4 pb-6">Our rigorous security and compliance standards
+                    are at the heart of all we do. We work tirelessly to protect you and your customers.</p>
+                <hr>
+                <div class="pt-6 text-base font-medium gap-4 text-[#7E3AF2] flex flex-col justify-start">
+                    <div class="flex flex-row gap-2">
+                        <a href="#">Explore Legality Guide</a>
+                        <img class="h-4 w-4 object-cover mt-[6px]" src="arrow-right.png">
+                    </div>
+                    <div class="flex flex-row gap-2">
+                        <a href="#">Visit the Trust Center</a>
+                        <img class="h-4 w-4 object-cover mt-[6px]" src="arrow-right.png">
+                    </div>
+                </div>
+            </div>
+            <div class="right xl:w-[46%]">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-start">
+                    <div class="">
+                        <img src="server.png">
+                        <h2 class="text-2xl font-bold pt-4">99.99% uptime</h2>
+                        <p class="text-[#6B7280] text-base font-light pt-2">for Flowbite, with zero maintenance downtime
+                        </p>
+                    </div>
+                    <div class="">
+                        <img src="users.png">
+                        <h2 class="text-2xl font-bold pt-4">600M+ Users</h2>
+                        <p class="text-[#6B7280] text-base font-light pt-2">trusted by over 600 milion users around the
+                            world</p>
+                    </div>
+                    <div class="">
+                        <img src="shopping-cart.png">
+                        <h2 class="text-2xl font-bold pt-4">Millions</h2>
+                        <p class="text-[#6B7280] text-base font-light pt-2">of transactions per day</p>
+                    </div>
+                    <div class="">
+                        <img src="globe.png">
+                        <h2 class="text-2xl font-bold pt-4">100+ countries</h2>
+                        <p class="text-[#6B7280] text-base font-light pt-2">have used Flowbite to create functional
+                            websites</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--TESTIMONIALS-->
+    <div class="bg-[#F9FAFB]">
+        <div class="md:py-24 py-10">
+            <div class="container max-w-[1280px] m-auto px-4 lg:px-0">
+                <div class="flex justify-center">
+                    <img src="vector.png">
+                </div>
+                <p class="text-2xl font-semibold text-center py-6 lg:pl-64 lg:pr-72">"Flowbite is just awesome. It contains tons of
+                    predesigned
+                    components and pages starting from login screen to complex dashboard. Perfect choice for your
+                    next SaaS application."</p>
+                <div class="flex justify-center items-center gap-3">
+                    <img src="Avatar.png">
+                    <p class="text-base font-semibold">Micheal Gough</p>
+                    /
+                    <p class="text-[#6B7280] text-sm font-normal">CEO at Google</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- PRICING -->
+    <div class="md:py-24 py-10">
+        <div class="container max-w-[1280px] m-auto px-4 lg:px-0">
+            <div class="md:flex md:flex-col justify-center items-center">
+                <h1 class="md:text-4xl md:font-extrabold text-2xl font-semibold text-center">Pay as you grow</h1>
+                <p class="text-xl font-normal text-[#6B7280] pt-4 md:px-64 text-center">Here at flowbite we focus on
+                    markets where technology, innovation, and capital can unlock long-term value and drive economic
+                    growth.</p>
+            </div>
+            <div class="grid w-full lg:grid-cols-3 lg:px-4 gap-10 text-center pt-12">
+                <div
+                    class=" py-8 px-8 w-full md:w-[400px] lg:w-full xl:w-[400] mx-auto rounded-md border border-solid border-[#E5E7EB]">
+                    <div class="flex flex-col justify-center items-center">
+                        <h1 class="text-2xl font-semibold">Starter</h1>
+                        <p class="text-lg font-normal pt-4 text-[#6B7280]">Great for personal use and for your side
+                            projects.</p>
+                        <div class="flex flex-row items-center gap-2">
+                            <h2 class="text-5xl font-extrabold py-8">$49</h2>
+                            <p class="text-[#6B7280] text-lg font-medium mt-3">/month</p>
+                        </div>
+                    </div>
+                    <div class="text-start">
+                        <div class="flex gap-[10px] items-center pb-4">
+                            <div>
+                                <img class="w-5 h-5 ml-1" src="check1.png">
+                            </div>
+                            <div>
+                                <p class="font-medium text-base  text-[#556987]">Individual configuration</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-[10px] items-center pb-4">
+                            <div>
+                                <img class="w-5 h-5 ml-1" src="check1.png">
+                            </div>
+                            <div>
+                                <p class="font-medium text-base  text-[#556987]">No setup, monthly, or hidden fees</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-[10px] items-center pb-4">
+                            <div>
+                                <img class="w-5 h-5 ml-1" src="check1.png">
+                            </div>
+                            <div>
+                                <p class="font-medium text-base  text-[#556987]">Team size: 1 developer</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-[10px] items-center pb-4">
+                            <div>
+                                <img class="w-5 h-5 ml-1" src="check1.png">
+                            </div>
+                            <div>
+                                <p class="font-medium text-base  text-[#556987]">Premium support: 6 months
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex gap-[10px] items-center pb-4">
+                            <div>
+                                <img class="w-5 h-5 ml-1" src="check1.png">
+                            </div>
+                            <div>
+                                <p class="font-medium text-base  text-[#556987]">Free updates: 6 months
+                                </p>
+                            </div>
+                        </div>
+
+                        <button class="bg-[#7E3AF2] text-white py-[10px] px-[15px] w-full rounded-lg">Get started</button>
+                    </div>
+                </div>
+                <div
+                    class=" py-8 px-8 w-full md:w-[400px]  lg:w-full xl:w-[400] mx-auto rounded-md border border-solid border-[#E5E7EB]">
+                    <div class="flex flex-col justify-center items-center ">
+                        <h1 class="text-2xl font-semibold">Company</h1>
+                        <p class="text-lg font-normal pt-4 text-[#6B7280]">Best for large scale uses and extended
+                            redistribution rights.</p>
+                        <div class="flex flex-row items-center gap-2">
+                            <h2 class="text-5xl font-extrabold py-8">$99</h2>
+                            <p class="text-[#6B7280] text-lg font-medium mt-3">/month</p>
+                        </div>
+                    </div>
+                    <div class="text-start">
+                        <div class="flex gap-[10px] items-center pb-4">
+                            <div>
+                                <img class="w-5 h-5 ml-1" src="check1.png">
+                            </div>
+                            <div>
+                                <p class="font-medium text-base  text-[#556987]">Individual configuration</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-[10px] items-center pb-4">
+                            <div>
+                                <img class="w-5 h-5 ml-1" src="check1.png">
+                            </div>
+                            <div>
+                                <p class="font-medium text-base  text-[#556987]">No setup, monthly, or hidden fees</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-[10px] items-center pb-4">
+                            <div>
+                                <img class="w-5 h-5 ml-1" src="check1.png">
+                            </div>
+                            <div>
+                                <p class="font-medium text-base  text-[#556987]">Team size: 10 developer</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-[10px] items-center pb-4">
+                            <div>
+                                <img class="w-5 h-5 ml-1" src="check1.png">
+                            </div>
+                            <div>
+                                <p class="font-medium text-base  text-[#556987]">Premium support: 24 months
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex gap-[10px] items-center pb-4">
+                            <div>
+                                <img class="w-5 h-5 ml-1" src="check1.png">
+                            </div>
+                            <div>
+                                <p class="font-medium text-base  text-[#556987]">Free updates: 24 months
+                                </p>
+                            </div>
+                        </div>
+
+                        <button class="bg-[#7E3AF2] text-white py-[10px] px-[15px] w-full rounded-lg">Get started</button>
+                    </div>
+                </div>
+                <div
+                    class=" py-8 px-8 w-full md:w-[400px]  lg:w-full xl:w-[400]  mx-auto rounded-md border border-solid border-[#E5E7EB]">
+                    <div class="flex flex-col justify-center items-center">
+                        <h1 class="text-2xl font-semibold">Enterprise</h1>
+                        <p class="text-lg font-normal pt-4 text-[#6B7280]">Great for personal use and for your side
+                            projects.</p>
+                        <div class="flex flex-row items-center gap-2">
+                            <h2 class="text-5xl font-extrabold py-8">$499</h2>
+                            <p class="text-[#6B7280] text-lg font-medium mt-3">/month</p>
+                        </div>
+                    </div>
+                    <div class="text-start">
+                        <div class="flex gap-[10px] items-center pb-4">
+                            <div>
+                                <img class="w-5 h-5 ml-1" src="check1.png">
+                            </div>
+                            <div>
+                                <p class="font-medium text-base  text-[#556987]">Individual configuration</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-[10px] items-center pb-4">
+                            <div>
+                                <img class="w-5 h-5 ml-1" src="check1.png">
+                            </div>
+                            <div>
+                                <p class="font-medium text-base  text-[#556987]">No setup, monthly, or hidden fees</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-[10px] items-center pb-4">
+                            <div>
+                                <img class="w-5 h-5 ml-1" src="check1.png">
+                            </div>
+                            <div>
+                                <p class="font-medium text-base  text-[#556987]">Team size: 100+ developers</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-[10px] items-center pb-4">
+                            <div>
+                                <img class="w-5 h-5 ml-1" src="check1.png">
+                            </div>
+                            <div>
+                                <p class="font-medium text-base  text-[#556987]">Premium support: 36 months
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex gap-[10px] items-center pb-4">
+                            <div>
+                                <img class="w-5 h-5 ml-1" src="check1.png">
+                            </div>
+                            <div>
+                                <p class="font-medium text-base  text-[#556987]">Free updates: 36 months
+                                </p>
+                            </div>
+                        </div>
+
+                        <button class="bg-[#7E3AF2] text-white py-[10px] px-[15px] w-full rounded-lg">Get started</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- FAQ -->
+    <div class="py-24">
+        <div class="container max-w-[1280px] m-auto px-4 lg:px-0">
+            <div class="text-center">
+                <h1 class="pb-8 text-4xl font-extrabold">Frequently asked questions</h1>
+            </div>
+            <div class="flex flex-col sm:w-3/4 lg:w-5/12 mx-auto">
+                <div class="flex  justify-between items-baseline border-b">
+                    <span class="text-lg font-medium py-6">Can I use FlowBite in open-source projects?</span>
+                    <img class="object-cover mt-14" src="chevron-down.png">
+                </div>
+                <div class="flex flex-col border-b">
+                    <p class="text-base font-normal text-[#556987] pt-5">Generally, it is accepted to use FlowBite in
+                        open-source projects, as long as it is not a UI library, a theme, a template, a page-builder
+                        that would be considered as an alternative to FlowBite itself.</p>
+                    <p class="text-base font-normal text-[#556987] py-[6px]">With that being said, feel free to use this
+                        design kit for your open-source projects.</p>
+                    <p class="text-base font-normal text-[#556987] pb-5">Find out more information by reading the
+                        license.</p>
+                </div>
+                <div class="flex justify-between items-baseline border-b">
+                    <span class="text-lg font-medium py-6">Where can I access my download files?</span>
+                    <img class="object-cover mt-14" src="chevron-down.png">
+                </div>
+                <div class="flex justify-between items-baseline border-b">
+                    <span class="text-lg font-medium py-6">Can I use FlowBite for commercial purposes?</span>
+                    <img class="object-cover mt-14" src="chevron-down.png">
+                </div>
+                <div class="flex justify-between  items-baseline border-b">
+                    <span class="text-lg font-medium py-6">What about browser support??</span>
+                    <img class="object-cover mt-14" src="chevron-down.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- CTA -->
+    <div class="bg-[#F9FAFB]">
+        <div class="lg:py-24 py-10">
+            <div class="container max-w-[1280px] m-auto px-4 lg:px-0">
+                <div class="flex flex-col justify-center items-center text-center">
+                    <h1 class="lg:text-4xl text-2xl font-bold lg:font-extrabold">Start your free trial today</h1>
+                    <p class="py-6 text-xl font-normal text-[#6B7280]">Try Flowbite Platform for 30 days. No credit card
+                        required.</p>
+                    <button class="text-white bg-[#7E3AF2] px-5 py-3 text-base font-medium rounded-lg">Free trial for 30
+                        days</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <div class="container max-w-[1280px] m-auto  px-4 lg:px-4 xl:px-0">
+        <div class="py-16">
+            <div
+                class="sm:flex sm:justify-between text-center sm:text-start sm:gap-6 md:flex md:justify-between md:gap-6">
+                <div class="pt-4 lg:pt-0 flex flex-col gap-y-4">
+                    <h2 class="font-semibold text-sm pb-2">COMPANY</h2>
+                    <a href="#" class="text-[#6B7280] font-normal text-base">About</a>
+                    <a href="#" class="text-[#6B7280] font-normal text-base">Premium</a>
+                    <a href="#" class="text-[#6B7280] font-normal text-base">Blog</a>
+                    <a href="#" class="text-[#6B7280] font-normal text-base">Affiliate Program</a>
+                    <a href="#" class="text-[#6B7280] font-normal text-base">Get Coupon</a>
+                </div>
+                <div class="pt-4 lg:pt-0 flex flex-col gap-y-4">
+                    <h2 class="font-semibold text-sm pb-2">Help and support</h2>
+                    <a href="#" class="text-[#6B7280] font-normal text-base">Contact Us</a>
+                    <a href="#" class="text-[#6B7280] font-normal text-base">Knowledge Center</a>
+                    <a href="#" class="text-[#6B7280] font-normal text-base">Premium Support</a>
+                    <a href="#" class="text-[#6B7280] font-normal text-base">Sponsorships</a>
+                </div>
+                <div class="pt-4 lg:pt-0 flex flex-col gap-y-4">
+                    <h2 class="font-semibold text-sm pb-2">Learning</h2>
+                    <a href="#" class="text-[#6B7280] font-normal text-base">Learn Hub</a>
+                    <a href="#" class="text-[#6B7280] font-normal text-base">Manuals</a>
+                    <a href="#" class="text-[#6B7280] font-normal text-base">Tutorials</a>
+                    <a href="#" class="text-[#6B7280] font-normal text-base">Communities</a>
+                </div>
+                <div class="pt-4 lg:pt-0 flex flex-col gap-y-4">
+                    <h2 class="font-semibold text-sm pb-2">RESOURCES</h2>
+                    <a href="#" class="text-[#6B7280] font-normal text-base">Third-Party Tools</a>
+                    <a href="#" class="text-[#6B7280] font-normal text-base">Illustrations</a>
+                    <a href="#" class="text-[#6B7280] font-normal text-base">Themesberg</a>
+                    <a href="#" class="text-[#6B7280] font-normal text-base">Bluehost</a>
+                    <a href="#" class="text-[#6B7280] font-normal text-base">Stock Photos</a>
+                </div>
+                <div class="pt-4 lg:pt-0 flex flex-col gap-y-4">
+                    <h2 class="font-semibold text-sm pb-2">LEGAL</h2>
+                    <a href="#" class="text-[#6B7280] font-normal text-base">Privacy Policy</a>
+                    <a href="#" class="text-[#6B7280] font-normal text-base">Terms & Conditions</a>
+                    <a href="#" class="text-[#6B7280] font-normal text-base">EULA</a>
+                </div>
+            </div>
+            <div class="flex flex-col justify-center  items-center pt-16">
+                <img class="object-cover w-[156px] h-[36px]" src="Logo.png" alt="logo">
+                <p class="text-[#6B7280] text-base font-normal py-5 text-center">© 2023 Flowbite, Inc. All rights
+                    reserved.</p>
+                <div class="flex flex-row gap-5">
+                    <img class="object-cover" src="github.png">
+                    <img class="object-cover" src="twitter.png">
+                    <img class="object-cover" src="dribbble.png">
+                    <img class="object-cover" src="facebook-f.png">
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
